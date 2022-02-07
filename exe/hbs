@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+handlebars = File.absolute_path("handlebars", __dir__)
+
+exec([handlebars, "handlebars"], *ARGV)

@@ -1,0 +1,15 @@
+/[._]*/
+!/.github/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/vendor/
+*.a
+*.bundle
+*.gem
+*.lock
+*.o
+*.rbc
+*.so
+mkmf.log
